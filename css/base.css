@@ -1,0 +1,127 @@
+input::-webkit-input-placeholder{
+  color:#eaedee;
+  font-size: 1.25rem;
+}
+input::-moz-placeholder{   /* Mozilla Firefox 19+ */
+  color:#eaedee;
+  font-size: 1.25rem;
+}
+input:-moz-placeholder{    /* Mozilla Firefox 4 to 18 */
+  color:#eaedee;
+  font-size: 1.25rem;
+}
+input:-ms-input-placeholder{  /* Internet Explorer 10-11 */ 
+  color:#eaedee;
+  font-size: 1.25rem;
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+}
+
+button {
+  border: none;
+  outline: none;
+  background-color: #5fc0cd;
+}
+
+body {
+  background-color: #eff0f4;
+}
+
+.header {
+  background-color: #5fc0cd;
+  font-size: 1.25rem;
+  color: #fff;
+  position: relative;
+}
+
+.header:after {
+  clear: both;
+  height: 0;
+  display: table;
+  content: "";
+  visibility: hidden;
+}
+
+.header .close {
+  float: left;
+  margin: 30px 0 30px 30px;
+}
+
+.header .register {
+  float: right;
+  margin: 30px 30px 30px 0;
+}
+
+.header .login {
+  font-size: 1.5rem;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.main {
+  margin-top: 16px;
+}
+
+.username, .password {
+  background-color: #fff;
+  height: 100px;
+}
+
+
+.username div {
+  background: url(../img/username.png) no-repeat;
+}
+
+.password div {
+  background: url(../img/password.png) no-repeat;
+} 
+
+.main > div > div {
+  margin-left: 2rem;
+  margin-top: 30px;
+  padding-right: 2rem;
+  border-right: 2px solid #eaedee;
+  display: inline-block;
+  width: 30px;
+  height: 44px;
+}
+
+.main > div > input {
+  border: none;
+  height: 44px;
+  position: relative;
+  bottom: 17px;
+  width: 60%;
+}
+
+.main .password {
+  margin-top: 14px;
+}
+
+.login-button {
+  margin-top: 70px;
+  height: 100px;
+  background-color: #5fc0cd;
+  text-align: center;
+  line-height: 100px;
+  font-size: 1.75rem;
+}
+
+.login-button button {
+  color: #fff;
+}
+
+.forget-password {
+  float: right;
+  margin-top: 20px;
+  margin-right: 20px;
+}
+
+.forget-password a {
+  color: #5fc0cd;
+}
